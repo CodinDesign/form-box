@@ -1,0 +1,80 @@
+body {
+  padding: 20px;
+  margin: 0;
+  background-color: #141528;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  color: white;  
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  padding: 10% 0 0 0;
+  margin: 15%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00BCFF;
+  padding: 5% 10%;
+  
+}
+
+fieldset {
+  margin-top: 10%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 3px solid #00BCFF;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  padding: 25px;
+  color: white;
+  box-shadow: 0 0 15px #00BCFF;
+  
+}
+
+legend  {
+  padding: 2%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  padding: 3%;
+  width: 93%;
+  font-size: 20px;
+  border-radius: 15px;
+  border-style: none;
+  border: 2px solid #00BCFF;
+  
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #00BCFF;
+  transform: scale(0.8);
+  
+}
+
+button:hover {
+  background-color: #00BCFF;
+  
+}
+
+button:active{
+  box-shadow: 0 0 10px #00BCFF;
+
+}
